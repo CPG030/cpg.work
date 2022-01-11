@@ -1,0 +1,200 @@
+        body {
+            font-size: 14px;
+            font-family: "微軟正黑體", "Microsoft JhengHei", "Segoe UI Semibold", "Segoe UI", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+            ;
+            background-color: rgb(191, 189, 204);
+        }
+        
+        .wrap {
+            background: rgb(238, 240, 233);
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 60px;
+            margin-bottom: 60px;
+            /* margin: 60px auto;等同上方 */
+            border-radius: 30px;
+            padding: 40px;
+            box-sizing: border-box;
+            box-shadow: 0 0 8px#000 rgba(0, 0, 0, 3)
+        }
+        /* <!-- header --> */
+        
+        .header {
+            overflow: hidden;
+        }
+        
+        .header .pic {
+            width: 600px;
+            height: 400px;
+            float: left;
+            margin-right: 30px;
+        }
+        
+        .header .pic img {
+            width: 600px;
+            height: 400px;
+            border-radius: 30px;
+        }
+        
+        .header .info {}
+        
+        .header .info h1 {
+            font-size: 18px;
+            margin-top: 60px;
+            margin-bottom: 60px;
+            color: rgb(8, 35, 58);
+        }
+        
+        .header .info p {
+            font-size: 16px;
+            color: rgb(63, 79, 94);
+        }
+        /* <!-- social --> */
+        
+        .header .info .social {}
+        
+        .header .info .social a {
+            width: 32px;
+            height: 32px;
+        }
+        
+        .header .info .social a img {
+            width: 32px;
+            height: 32px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        /* mail */
+        
+        .header .info .mail::before {
+            content: Mail;
+            color: rgb(36, 71, 124);
+        }
+        
+        .header .info .mail a {
+            text-decoration: none;
+            color: rgb(26, 36, 59);
+        }
+        
+        .header .info .phone::before {
+            content: P;
+            color: rgb(26, 36, 59);
+        }
+        /* Software */
+        
+        .software {
+            overflow: hidden;
+        }
+        
+        .software h2 {
+            font-size: 17px;
+            color: rgb(61, 31, 4);
+            margin-bottom: 0%;
+        }
+        
+        .software ul {
+            /* list-style: none; */
+            padding: 20px;
+            box-sizing: border-box;
+            margin-top: 5px;
+        }
+        
+        .software ul li {
+            width: 33%;
+            float: left;
+            margin-bottom: 10px;
+        }
+        
+        .software ul li span {
+            font-size: 15px;
+            color: rgb(105, 111, 124);
+        }
+        
+        .software ul li .school {}
+        /* .experience */
+        
+        .experience {
+            overflow: hidden;
+        }
+        
+        .experience h2 {
+            font-size: 17px;
+            color: rgb(61, 31, 4);
+        }
+        
+        .experience ul {
+            list-style: none;
+            float: left;
+            width: 50%;
+            padding: 0;
+            /* box-sizing: border-box; */
+            color: rgb(0, 0, 0);
+            font-size: 14px;
+        }
+        
+        .experience ul li {
+            padding-left: 50px;
+            position: relative;
+        }
+        
+        .experience ul li::before {
+            content: "✦";
+            position: absolute;
+            left: 0;
+            color: rgb(105, 111, 124);
+            display: block;
+            position: ;
+            bottom: 0;
+        }
+        
+        .experience ul li::after {
+            content: ;
+            width: 1px;
+            width: 100%;
+            display: block;
+            background: lightsalmon;
+            left: 4px;
+            bottom: 0;
+            top: 7px;
+        }
+        
+        .experience ul li .school {}
+        
+        .experience ul li .time {}
+        /* .work */
+        
+        .work {
+            overflow: hidden;
+            border: radius 30px;
+        }
+        
+        .work h2 {
+            font-size: 17px;
+            color: rgb(61, 31, 4);
+        }
+        
+        .work .pic {
+            float: left;
+            width: 280px;
+            height: 200px;
+            margin: 10px;
+            overflow: hidden;
+        }
+        
+        .work .pic img {
+            width: 280px;
+            height: 200px;
+            border: radius 30px;
+            transition: 1s all;
+            position: relative;
+            z-index: 8;
+        }
+        
+        .work .pic:hover img {
+            transform: scale(1, 1);
+        }
+        
+        .work .pic:hover img {
+            transform: scale(1, 1);
+        }
